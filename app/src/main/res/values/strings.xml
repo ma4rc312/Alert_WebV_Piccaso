@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Alert_WebV_Piccaso</string>
+
+    <string name="alert">alert dialog</string>
+    <string name="webv">webview</string>
+    <string name="picasso">picasso</string>
+
+    <string name="txt1">Mostrar toast corta duracion</string>
+    <string name="txt2">mostrar toast larga duracion</string>
+    <string name="txt3">mostrar alerta con boton ok</string>
+    <string name="txt4">mostrar alerta con boton ok y cancelar</string>
+
+</resources>

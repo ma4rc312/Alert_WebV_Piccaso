@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlertSweet">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#4CAF50"
+        android:padding="8dp"
+        android:text="Mensaje basico"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#9C27B0"
+        android:padding="8dp"
+        android:text=" Título con un texto debajo "
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background = "#FF0000"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        android:textSize = "20dp"
+        android:padding = "8dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "40dp"
+        android:layout_marginLeft = "40dp"
+        android:text = "Mensaje de error "
+        android:id = "@+id/btn3"
+        android:layout_width = "match_parent"
+        android:layout_height = "48dp"/>
+
+    <Button
+        android:background = "#FFC107"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        android:textSize = "20dp"
+        android:padding = "8dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "40dp"
+        android:layout_marginLeft = "40dp"
+        android:text = "mensaje de advertencia "
+        android:id = "@+id/btn4"
+        android:layout_width = "match_parent"
+        android:layout_height = "48dp"/>
+
+    <Button
+        android:background = "#2FE437"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        android:textSize = "20dp"
+        android:padding = "8dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "40dp"
+        android:layout_marginLeft = "40dp"
+        android:text = " Mensaje de éxito"
+        android:id = "@+id/btn5"
+        android:layout_width = "match_parent"
+        android:layout_height = "48dp"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#009688"
+        android:padding="2dp"
+        android:text=" Mensaje con un icono personalizado"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background = "#00F30A"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        android:textSize = "20dp"
+        android:padding = "8dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "40dp"
+        android:layout_marginLeft = "40dp"
+        android:text = "Confirmar botón de escucha"
+        android:id = "@+id/btn7"
+        android:layout_width = "match_parent"
+        android:layout_height = "48dp"/>
+
+    <Button
+        android:background = "#FF2D1E"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        android:textSize = "20dp"
+        android:padding = "8dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "40dp"
+        android:layout_marginLeft = "40dp"
+        android:text = "Botón Cancelar escucha"
+        android:id = "@+id/btn8"
+        android:layout_width = "match_parent"
+        android:layout_height = "48dp"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#673AB7"
+        android:text="Cambiar el estilo del cuadro de diálogo al confirmar"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
